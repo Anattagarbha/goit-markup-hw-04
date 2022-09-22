@@ -358,6 +358,12 @@ img {
   flex-wrap: wrap;
 }
 
+.social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 /* footer */
 
 .wst-footer {
