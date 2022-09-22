@@ -273,6 +273,29 @@ img {
   flex-basis: 270px;
 }
 
+.features-item::before {
+  content: "";
+  display: block;
+  background-color: var(--second-bgn-color);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.advantages-item:nth-child(1)::before {
+  background-image: url("../images/decor/group-01.svg");
+}
+.advantages-item:nth-child(2)::before {
+  background-image: url("../images/decor/group-02.svg");
+}
+.advantages-item:nth-child(3)::before {
+  background-image: url("../images/decor/group-03.svg");
+}
+.advantages-item:nth-child(4)::before {
+  background-image: url("../images/decor/group-04.svg");
+}
+
 /* стиль секции skills */
 
 .skills-headline {
