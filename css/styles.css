@@ -175,6 +175,11 @@ img {
   color: var(--brand-color);
 }
 
+.contact-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .contacts {
   display: flex;
   align-items: center;
