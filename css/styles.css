@@ -571,6 +571,7 @@ img {
   letter-spacing: 0.06em;
   line-height: 2;
   margin-bottom: 4px;
+  color: var(--font-color);
 }
 
 .project-info > .project-function {
