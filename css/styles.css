@@ -437,6 +437,11 @@ img {
   margin-bottom: 20px;
 }
 
+.wst-footer > .container {
+  display: flex;
+  align-items: baseline;
+}
+
 /* adress menu */
 
 .address-item > .address-link {
