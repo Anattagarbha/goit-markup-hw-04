@@ -5,6 +5,7 @@
   --bgn-color: #ffffff;
   --second-bgn-color: #f5f4fa;
   --third-bgn-color: #2f303a;
+  --social-bgn-color: rgba(255, 255, 255, 0.1);
   --font-color: #212121;
   --small-text: #757575;
   --active-color: #188ce8;
@@ -500,7 +501,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--social-bgn-color);
   display: flex;
   align-items: center;
   justify-content: center;
