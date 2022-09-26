@@ -382,6 +382,43 @@ img {
   fill: var(--bgn-color);
 }
 
+/* клиенты */
+
+.clients-headline {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+
+.client-item {
+  width: calc((100% - 150px + 12px) / 6);
+  display: flex;
+}
+
+.client-link {
+  width: calc(100%);
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-link:hover,
+.client-link:focus {
+  fill: var(--brand-color);
+  border-color: var(--brand-color);
+}
+
 /* footer */
 
 .wst-footer {
