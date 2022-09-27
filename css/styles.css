@@ -263,6 +263,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .features-item > .features-text {
