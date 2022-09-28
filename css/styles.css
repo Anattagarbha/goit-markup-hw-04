@@ -11,6 +11,9 @@
   --active-color: #188ce8;
   --border-color: #eeeeee;
   --hdr-border-color: #ececec;
+  --hero-bgn-color: #c4c4c4;
+  --hero-gdn-color: rgba(47, 48, 58, 0.4);
+  --icon-fill-color: #afb1b8;
   --mr-black: #000000;
   --mr-white: #ffffff;
   --address-color: rgba(255, 255, 255, 0.6);
@@ -21,6 +24,7 @@
   --port-btn-shadow-1: rgba(0, 0, 0, 0.1);
   --port-btn-shadow-2: rgba(0, 0, 0, 0.08);
   --port-btn-shadow-3: rgba(0, 0, 0, 0.12);
+  --project-box-shadow: rgba(0, 0, 0, 0.25);
   --font-primary: "Roboto", "Arial", sans-serif;
 }
 
@@ -237,13 +241,13 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #c4c4c4;
+  background-color: var(--hero-bgn-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
+      var(--hero-gdn-color),
+      var(--hero-gdn-color)
     ),
     url("../images/decor/hero.jpg");
 }
@@ -382,7 +386,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
+  fill: var(--icon-fill-color);
 }
 
 .social-link:hover,
@@ -416,7 +420,7 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: #afb1b8;
+  fill: var(--icon-fill-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -506,7 +510,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #ffffff;
+  fill: var(--mr-white);
 }
 
 .footer-social-link:hover,
@@ -588,5 +592,5 @@ img {
 }
 
 .project-item:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px var(--project-box-shadow);
 }
